@@ -10,7 +10,7 @@ export default function HeroHeader() {
     <>
       <div className="lg:mb-28 ml-10 lg:ml-7 mb-5 sm:ml-14 flex flex-col w-[20rem] justify-center items-start md:w-[20rem] sm:w-[80vw] ">
         <h1
-          className={`text-2xl mt-10  text-blue-50  ${raleway.className} font-semibold`}>
+          className={`text-2xl mt-10 text-transparent bg-gradient-to-r from-[#4EA3FF] via-[#A679C2] to-[#007BFF] bg-clip-text  ${raleway.className} font-semibold`}>
           Collaboration Station
         </h1>
         <TextGenerateEffect

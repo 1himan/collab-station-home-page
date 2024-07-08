@@ -4,7 +4,7 @@ import MyImagesSlider from "./MyImagesSlider";
 
 function Image_Collage() {
   return (
-    <div className="container w-[100] px-3 mb-4 lg:mb-0 xs:p-0  flex-4 grid gap-2 sm:mt-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 auto-rows-[15rem] sm:grid-cols-1">
+    <div className="container px-3 mb-4 lg:mb-0 xs:p-0  flex-4 grid gap-2 sm:mt-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 auto-rows-[15rem] sm:grid-cols-1">
       {data.map((item, i) => (
         <MyImagesSlider
           key={i}
@@ -21,3 +21,6 @@ function Image_Collage() {
 }
 
 export default Image_Collage;
+
+
+{/* */}

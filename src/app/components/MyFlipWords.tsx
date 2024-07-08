@@ -11,7 +11,7 @@ export default function MyFlipWords({
 }) {
   return (
     <div className="flex justify-center items-center">
-      <div className="text-lg font-semibold mx-auto text-slate-200 w-[18rem]">
+      <div className="text-lg font-semibold mx-auto text-slate-600 w-[18rem]">
         Start
         <FlipWords words={words} />
         {/* <br /> */}

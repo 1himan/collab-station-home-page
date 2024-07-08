@@ -1,28 +1,16 @@
 const data = [
   {
-    images: [
-      "https://img.freepik.com/premium-photo/mixed-team-software-developers-analyzing-source-code-pointing-screens-comparing-algorithm-with-user-interface-digital-tablet-programmers-working-coding-group-project-sitting-desk_482257-43991.jpg",
-      "https://startupanz.com/wp-content/uploads/2018/01/pexels-photo.jpg",
-      "https://miro.medium.com/v2/resize:fit:1400/0*7VyEZgzwUhQMeBqb",
-    ],
+    images: ["/code1.jpg", "/code2.jpg", "/code3.jpg"],
     interval: 8000,
     text: "Help others to improve in their Web Development, Blockchain and Algorithm Design Projects",
   },
   {
-    images: [
-      "https://blog.reverbnation.com/wp-content/uploads/2021/04/5-misconceptions-about-making-music.jpg",
-      "https://storage.needpix.com/rsynced_images/guitar-3456120_1280.jpg",
-      "https://i.ytimg.com/vi/asx3wwdO178/maxresdefault.jpg",
-    ],
+    images: ["/music1.jpg", "/music2.jpg", "/music3.jpg"],
     interval: 7000,
     text: "Take part in Stage plays, musicals, dance choreography, and performance art",
   },
   {
-    images: [
-      "https://api.mygermanuniversity.com/images/study_program_images/f457c545a9ded88f18ecee47145a72c0_8nit8T5IILd21714724369.png",
-      "https://3.files.edl.io/3e43/23/04/18/184158-d4c4ccc9-9cc4-404b-bea1-b262236ac3e1.jpg",
-      "https://kalaartanddesign.com/wp-content/uploads/2023/07/fashion-designer-stylish-drawings-sketches-textile-fabric-material-costume-designer-creative-1-1024x690.jpeg",
-    ],
+    images: ["/write.jpg", "/write1.jpg", "/write2.jpeg"],
     interval: 11000,
     text: "Make Projects Together on Graphic design, painting, digital art, illustration, and animation",
   },
