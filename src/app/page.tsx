@@ -6,7 +6,7 @@ import Image_Collage from "./components/Image_Collage";
 import { motion } from "framer-motion";
 import { AuroraBackground } from "../components/ui/aurora-background";
 
-export function AuroraBackgroundDemo() {
+function AuroraBackgroundDemo() {
   return (
     <AuroraBackground>
       <motion.div
