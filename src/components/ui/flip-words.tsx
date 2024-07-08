@@ -33,8 +33,7 @@ export const FlipWords = ({
     <AnimatePresence
       onExitComplete={() => {
         setIsAnimating(false);
-      }}
-    >
+      }}>
       <motion.div
         initial={{
           opacity: 0,
@@ -44,9 +43,13 @@ export const FlipWords = ({
           opacity: 1,
           y: 0,
         }}
+        //this is also giving me error which goes like this
+        //Type '{ duration: number; ease: string; type: "spring"; stiffness: number; damping: number; }' is not assignable to type 'Transition$1 | undefined'.
+        // Types of property 'ease' are incompatible.
+        // Type 'string' is not assignable to type 'TransitionDefinition | undefined'.ts(2322)
         transition={{
           duration: 0.4,
-          ease: "easeInOut",
+          // ease: "easeInOut",
           type: "spring",
           stiffness: 100,
           damping: 10,
@@ -60,11 +63,10 @@ export const FlipWords = ({
           position: "absolute",
         }}
         className={cn(
-          "z-10 inline-block relative text-left text-sky-50 dark:text-neutral-500 px-2",
+          "z-10 inline-block relative text-left text-sky-300 dark:text-neutral-500 px-2",
           className
         )}
-        key={currentWord}
-      >
+        key={currentWord}>
         {currentWord.split("").map((letter, index) => (
           <motion.span
             key={currentWord + index}
@@ -74,8 +76,7 @@ export const FlipWords = ({
               delay: index * 0.08,
               duration: 0.4,
             }}
-            className="inline-block"
-          >
+            className="inline-block">
             {letter}
           </motion.span>
         ))}
